@@ -1,6 +1,6 @@
 ﻿namespace rvang1730ex1b
 {
-    partial class Form1
+    partial class frmInvoiceTotal
     {
         /// <summary>
         /// Required designer variable.
@@ -134,7 +134,7 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
-            // Form1
+            // frmInvoiceTotal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -149,8 +149,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmInvoiceTotal";
+            this.Text = "vrick1b:Invoice Total Form";
             this.ResumeLayout(false);
             this.PerformLayout();
 
