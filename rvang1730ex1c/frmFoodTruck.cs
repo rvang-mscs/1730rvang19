@@ -61,5 +61,10 @@ namespace rvang1730ex1c
 
             txtHotDogs.Focus();
         }
+
+        private void TxtHamburgersTotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

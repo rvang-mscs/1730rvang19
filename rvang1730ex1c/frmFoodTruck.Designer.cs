@@ -102,6 +102,7 @@
             this.txtHamburgersTotal.TabIndex = 7;
             this.txtHamburgersTotal.TabStop = false;
             this.txtHamburgersTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtHamburgersTotal.TextChanged += new System.EventHandler(this.TxtHamburgersTotal_TextChanged);
             // 
             // label3
             // 
