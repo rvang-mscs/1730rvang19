@@ -67,7 +67,7 @@
             // 
             // txtHotDogs
             // 
-            this.txtHotDogs.Location = new System.Drawing.Point(139, 33);
+            this.txtHotDogs.Location = new System.Drawing.Point(139, 31);
             this.txtHotDogs.Name = "txtHotDogs";
             this.txtHotDogs.Size = new System.Drawing.Size(62, 22);
             this.txtHotDogs.TabIndex = 4;
