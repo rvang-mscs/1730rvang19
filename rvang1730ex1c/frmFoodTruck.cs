@@ -66,5 +66,10 @@ namespace rvang1730ex1c
         {
 
         }
+
+        private void TxtTotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

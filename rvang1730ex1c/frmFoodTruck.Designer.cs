@@ -161,6 +161,7 @@
             this.txtTotal.TabIndex = 13;
             this.txtTotal.TabStop = false;
             this.txtTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtTotal.TextChanged += new System.EventHandler(this.TxtTotal_TextChanged);
             // 
             // label1
             // 
