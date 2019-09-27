@@ -71,5 +71,10 @@ namespace rvang1730ex1c
         {
 
         }
+
+        private void TxtPreTax_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
