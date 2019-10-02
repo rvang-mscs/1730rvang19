@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace rvang1730ex1d
+namespace rvang17302B
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace rvang1730ex1d
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CurrencyExchange());
+            Application.Run(new frmMain());
         }
     }
 }

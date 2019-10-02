@@ -39,5 +39,10 @@ namespace rvang1730ex2A
         {
             this.Close();
         }
+
+        private void TxtTotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

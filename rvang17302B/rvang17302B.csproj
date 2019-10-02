@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AB782DDA-0CD2-4F7B-9D48-1E2842D60282}</ProjectGuid>
+    <ProjectGuid>{00C98096-6290-4F12-BFD5-4B6088750B6A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>rvang1730ex1d</RootNamespace>
-    <AssemblyName>rvang1730ex1d</AssemblyName>
+    <RootNamespace>rvang17302B</RootNamespace>
+    <AssemblyName>rvang17302B</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CurrencyExchange.cs">
+    <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CurrencyExchange.Designer.cs">
-      <DependentUpon>CurrencyExchange.cs</DependentUpon>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CurrencyExchange.resx">
-      <DependentUpon>CurrencyExchange.cs</DependentUpon>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,7 +66,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Flags\1200px-Flag_of_Canada_%28Pantone%29.svg.webp" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -79,12 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Flags\1920px-Flag_of_France.svg.png" />
-    <Content Include="Flags\81NfOcqiXtL._SX425_.jpg" />
-    <Content Include="Flags\Flag_of_Mexico.png" />
-    <Content Include="Flags\USMFO-2T.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

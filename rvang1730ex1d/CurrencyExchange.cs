@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace rvang1730ex1d
 {
-    public partial class Form1 : Form
+    public partial class CurrencyExchange : Form
     {
-        public Form1()
+        public CurrencyExchange()
         {
             InitializeComponent();
         }

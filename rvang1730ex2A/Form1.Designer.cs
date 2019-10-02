@@ -68,6 +68,7 @@
             this.txtTotal.Size = new System.Drawing.Size(100, 22);
             this.txtTotal.TabIndex = 17;
             this.txtTotal.TabStop = false;
+            this.txtTotal.TextChanged += new System.EventHandler(this.TxtTotal_TextChanged);
             // 
             // txtDiscountAmount
             // 
